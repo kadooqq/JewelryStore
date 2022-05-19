@@ -30,6 +30,6 @@ class Routing
             return;
         }
 
-        header("Location: /JewelryStore/");
+        header("Location: /");
     }
 }

@@ -1,7 +1,7 @@
 <?php
 session_start();
-require_once($_SERVER['DOCUMENT_ROOT'] . "/JewelryStore/src/components/navbar.php");
-require_once($_SERVER['DOCUMENT_ROOT'] . '/JewelryStore/core/Routing.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . "/src/components/navbar.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . '/core/Routing.php');
 
 $url = key($_GET);
 
